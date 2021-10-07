@@ -1,0 +1,108 @@
+/* general styles */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.tribute-page {
+    margin: -30px 1vw;
+    background-color: #58a6a073;
+    text-align: center;
+}
+
+/* intro styles */
+
+.main-title {
+    padding-top: 15px;
+    font-size: 5vw;
+}
+
+.sub-title {
+    font-size: 18px;
+    margin-top: -30px;
+    text-transform: capitalize;
+}
+
+.intro-img img {
+    width: 85vw;
+    border: 15px solid white;
+    border-bottom: 50px solid white;
+}
+
+#img-caption {
+    font-size: 18px;
+    margin: -40px 0;
+}
+
+/* tribute details */
+
+#tribute-info {
+    margin: 90px auto 0;
+}
+
+#tribute-info h2 {
+    text-transform: capitalize;
+}
+
+.detail {
+    width: 35vw;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.detail ul {
+    list-style-type: square;
+}
+
+.detail ul li {
+    margin-bottom: 20px;
+}
+
+/* quote style---- */
+
+#quote {
+    width: 20vw;
+    margin: 80px auto 0;
+    position: relative;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#quote span {
+    font-weight: bold;
+}
+
+#quote:before {
+    content: "“";
+    font-size: 150px;
+    position: absolute;
+    bottom: -30px;
+    left: -70px;
+}
+
+footer {
+    margin: 50px auto 0;
+    background-color: #000;
+    color: white;
+}
+
+footer ul {
+    padding: 50px 0;
+    list-style: none;
+}
+
+footer ul li:last-child {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer a {
+    color: royalblue;
+}
+
+footer span {
+    color: palevioletred;
+}
